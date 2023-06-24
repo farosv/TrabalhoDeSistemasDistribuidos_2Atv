@@ -9,3 +9,7 @@ CREATE TABLE veiculo (
 );
 
 INSERT INTO veiculo (nomeCliente, marcaModeloVeiculo, anoModelo, valorVenda, dataPublicacao) VALUES ('Vitor Faro', 'Porsche 411', 2023, 350000.0, '2021-09-20 12:30:00');
+INSERT INTO veiculo (nomeCliente, marcaModeloVeiculo, anoModelo, valorVenda, dataPublicacao) VALUES ('Luiz', 'Renault Kwid', 2022, 32000.0, '2021-09-20 14:30:00');
+INSERT INTO veiculo (nomeCliente, marcaModeloVeiculo, anoModelo, valorVenda, dataPublicacao) VALUES ('Lucas', 'Jeep Renegade', 2020, 38000.0, '2021-09-20 20:30:00');
+INSERT INTO veiculo (nomeCliente, marcaModeloVeiculo, anoModelo, valorVenda, dataPublicacao) VALUES ('Mariana', 'Honda Civic', 2017, 40000.0, '2021-09-20 17:30:00');
+INSERT INTO veiculo (nomeCliente, marcaModeloVeiculo, anoModelo, valorVenda, dataPublicacao) VALUES ('Carla', 'Fiat Argo', 2018, 22000.0, '2021-09-20 15:30:00');
