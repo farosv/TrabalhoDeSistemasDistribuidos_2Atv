@@ -58,12 +58,4 @@ public class Veiculo implements Serializable {
     public void setDataPublicacao(Date dataPublicacao) {
         this.dataPublicacao = dataPublicacao;
     }
-
-    //public Long getId() {
-      //  return id;
-    //}
-
-    //public void setId(Long id) {
-    //    this.id = id;
-   // }
 }
