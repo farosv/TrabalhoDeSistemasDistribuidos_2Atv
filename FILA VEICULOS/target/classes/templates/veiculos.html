@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Lista de Veículos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+        <h1>Lista de Veículos</h1>
+        
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Nome do Cliente</th>
+                    <th>Marca Modelo do Veículo</th>
+                    <th>Ano do ///Modelo</th>
+                    <th>Valor de Venda</th>
+                    <th>Data de Publicação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="veiculo : ${veiculos}">
+                    <td th:text="${veiculo.nomeCliente}"></td>
+                    <td th:text="${veiculo.marcaModeloVeiculo}"></td>
+                    <td th:text="${veiculo.anoModelo}"></td>
+                    <td th:text="${veiculo.valorVenda}"></td>
+                    <td th:text="${veiculo.dataPublicacao}"></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </body>
+</html>
