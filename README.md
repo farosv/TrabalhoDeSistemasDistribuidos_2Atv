@@ -72,3 +72,9 @@ INSERT INTO veiculo (nomeCliente, marcaModeloVeiculo, anoModelo, valorVenda, dat
 3 -  Veja o funcionamento da fila através do ActiveMQ.
 
 4 - Em seguida, execute a classe "consumidor" para recuperar as mensagens da fila, processá-las e adicioná-las ao banco de dados.
+
+5 - Veja o funcionamento da fila e do banco de dados.
+
+6 - Por fim, inicie o serviço REST, que fornecerá o endpoint para inclusão de veículos classificados na fila no site através do "veiculos.html".
+
+A ordem acima garante que as mensagens sejam enviadas para a fila antes de serem consumidas e que o serviço REST esteja em execução para receber a inscrição de inclusão de classificados.
